@@ -37,7 +37,7 @@ namespace Diplo.Dictionary.Extensions
                         item.Language.Id,
                         item.Language.CultureName,
                         dict.ItemKey,
-                        item.Value?.Replace("\"\"", "\"\"").Replace("\n", "").Trim());
+                        item.Value?.Replace("\"", "\"\"").Replace("\n", "").Trim());
                 }
             }
 
